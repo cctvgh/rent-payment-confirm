@@ -1,4 +1,4 @@
-# 租金付款确认表自动生成（基站场地租赁报账）
+﻿# 租金付款确认表自动生成（基站场地租赁报账）
 
 > 基站租金报账时，付款确认表里的引用公式指着总表第几行，你敢手改吗？改错一行 = 错一笔钱。输入报账总表 + 合同台账，报一个合同编号，公式修正、字段补填、规范命名一步到位。
 
@@ -27,7 +27,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/cctvgh/rent-payment-confirm.git
+git clone https://github.com/rent-payment-confirm.git
 cd rent-payment-confirm
 
 # 报账文件夹内放好：报账总表(.xls) + 合同台账(.xlsx) + 目标确认表(.xlsx)
@@ -40,7 +40,7 @@ python scripts/build_rent_confirm.py --folder <报账文件夹> --contract <合�
 
 ## 适用人群
 
-- 通信运营商（中国电信/移动/联通）分公司报账员
+- 通信运营商（三大运营商）分公司报账员
 - 站址租赁 / 房屋场地租赁费用管理人员
 - 财务共享中心处理批量租赁凭证的审核人员
 - 任何需要批量修正 Excel 跨文件引用公式的办公场景
@@ -51,4 +51,4 @@ python scripts/build_rent_confirm.py --folder <报账文件夹> --contract <合�
 
 ## License
 
-MIT © 2026 何汉锋
+MIT © 2026 Author
